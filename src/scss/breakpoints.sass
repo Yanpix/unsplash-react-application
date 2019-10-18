@@ -1,0 +1,17 @@
+$screen-xs-min: 576px
+$screen-md-min: 768px
+$screen-xl-min: 1200px
+
+@mixin xs
+  @media (max-width: #{$screen-xs-min})
+    @content
+
+@mixin md
+  @media (max-width: #{$screen-md-min})
+    @content
+
+@mixin xl
+  @media (max-width: #{$screen-xl-min})
+    @content
+
+
